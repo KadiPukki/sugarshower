@@ -1,0 +1,19 @@
+@media(max-width: 390px) {
+    nav {
+        flex-direction: column;
+        height: 25vh;
+        padding-top: 2vh;
+    }
+
+    .social {
+        display: none;
+    }
+
+    #hidden1, #hidden2 {
+        display: contents;
+        }
+
+    .nav-menu {
+        gap: 6vw;
+    }
+}

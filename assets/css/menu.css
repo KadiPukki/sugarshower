@@ -15,18 +15,25 @@ nav {
 
 .nav-menu {
     display: flex;
-    gap: 1.5vw;
+    gap: 4vw;
     font-size: 1em;
-    font-weight: 500;    
+    font-weight: 500; 
+    cursor: pointer;   
 }
 
 .nav-bar img {
     width: 180px;
     height: auto;
+    cursor: pointer;
 }
 
 .social {
     display: flex;
     font-size: 1em;
-    gap: 1.5vw;
+    gap: 3vw;
+    cursor: pointer;
+}
+
+#hidden1, #hidden2 {
+    display: none;
 }
