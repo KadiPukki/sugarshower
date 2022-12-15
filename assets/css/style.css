@@ -23,7 +23,24 @@ body {
     --yellow: #f7f5ba;
     --green: #88f7de;
     --purple: #ba94f7;
-    --salmon: #f7b6a1;
+    --salmon: #fadbd3;
     --black: #0e0e0d;
     --white: #ffffff;
+ }
+
+ .btn {
+   font-size: 1em;
+   font-weight: 600;
+   text-transform: uppercase;
+   color: var(--black);
+   padding: 0.3em;
+   border-style: none;
+   background-color: transparent;
+   cursor: pointer;
+ }
+
+ .btn span {
+   display: inline-block;
+   border-bottom: 2px solid #0e0e0d;
+   padding-bottom: 2px;
  }

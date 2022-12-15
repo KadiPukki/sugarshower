@@ -1,3 +1,13 @@
+@media(max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    .header-img {
+        margin-left: 0;
+    }
+}
+
 @media(max-width: 390px) {
     nav {
         flex-direction: column;
@@ -16,4 +26,6 @@
     .nav-menu {
         gap: 6vw;
     }
+
+
 }
