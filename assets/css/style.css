@@ -39,5 +39,11 @@ body {
     cursor: pointer;
  }
 
+ .card-style {
+   max-width: 18rem;
+   object-fit:contain;
+   height: 200px;
+ }
+
 
  
