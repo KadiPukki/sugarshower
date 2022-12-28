@@ -1,0 +1,15 @@
+@media (max-width: 850px) {
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+    }
+
+    .footer-logo {
+        width: 110px;
+    }
+
+    .footer-bar {
+        display: none;
+    }
+}
