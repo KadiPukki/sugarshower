@@ -51,4 +51,22 @@ body {
   font-weight: 500;
  }
 
- 
+ .card-collection{
+  background-color: var(--salmon);
+ }
+
+ .card-size {
+   max-width: 18rem;
+   border-color: var(--orange);
+   border-width: 2px;
+ }
+
+ .card-btn {
+  color: var(--white);
+  background-color: #f7a488;
+ }
+
+ .card-img {
+   object-fit: cover;
+   height: 200px;
+ }
