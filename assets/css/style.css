@@ -16,6 +16,10 @@ body {
     --pink: #d283b5;
  }
 
+ a {
+  text-decoration: none;
+ }
+
  .logo {
     width: 150px;
     height: auto;
@@ -94,10 +98,23 @@ body {
   color: var(--pink);
  }
 
+ a:visited .instagram-btn {
+  color: var(--pink);
+ }
+
  .footer-bar {
   width: 100%;
   height: 20vh;
   background-color: var(--salmon);
   position: absolute;
   margin-top: -20vh;
+ }
+
+ .modal-title {
+  color: var(--pink);
+ }
+
+ .send-btn {
+  color: var(--white);
+  background-color: var(--pink);
  }

@@ -16,29 +16,32 @@
     <script src="https://kit.fontawesome.com/9d6b460a5d.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!--Navbar-->
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="./assets/images/logo-pink.png" alt="Sugar Shower logo" class="logo"></a>
+                <a class="navbar-brand" href="index.html"><img src="./assets/images/logo-pink.png" alt="Sugar Shower logo" class="logo"></a>
                 <button class="navbar-toggler navbar-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house navbar-style"></i></a>
+                            <a class="nav-link active" aria-current="page" href="index.html"><i class="fa-solid fa-house navbar-style"></i></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link navbar-style" data-bs-toggle="modal" data-bs-target="#modal-contato" href="#">Compre</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link navbar-style" href="#">Sobre</a>
+                            <a class="nav-link navbar-style" href="sobre.html">Sobre</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+    <!--Navbar-->
 
+    <!--Main content-->
     <main>
         <section>
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
@@ -71,7 +74,7 @@
 
         <section>
             <h2 class="text-center titulo pt-5 content-title">A beleza da pele está na cor!</h2>
-            <p class="text-center text-secondary pb-5 content-text">Lorem ipsa sequi eius modi esse distinctio nobis explicabo eaque doloremque labore recusandae</p>
+            <p class="text-center text-secondary pb-5 content-text">Um banho não precisa ser só um banho. É aquele momento só nosso que pode ser muito mais.</p>
         </section>
 
         <section class="container-fluid card-collection"> <!--container-fluid: container sem margem, ocupa a tela toda-->
@@ -131,10 +134,11 @@
         
         </section>
     </main>
+    <!--Main content-->
 
     <footer class="footer-content">
         <div>
-            <img src="./assets/images/logo-pink.png" alt="sugar shower logo" class="footer-logo">
+            <a class="navbar-brand" href="index.html"><img src="./assets/images/logo-pink.png" alt="Sugar Shower logo" class="footer-logo"></a>
         </div>
         <div class="footer-info p-3">
             <p>Contact us - Central office</p>
@@ -143,11 +147,49 @@
         </div>
         <div class="social-media p-3">
             <i class="fa-brands fa-square-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
+            <a href="https://www.instagram.com/sugarshower.cosmeticos/" target="_blank"><i class="fa-brands fa-instagram instagram-btn"></i></a>
         </div>
     </footer>
 
     <div class="footer-bar"></div>
+
+    <!--modal-->
+    <div class="modal fade" id="modal-contato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 modal-title" id="exampleModalLabel">Faça o pedido e entraremos em contato</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="contactName"
+                            placeholder="Insira seu nome completo">
+                    </div>
+                    <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Telefone</label>
+                        <input type="number" class="form-control" id="contactNumber" placeholder="DDD + telefone">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" id="contactEmail"
+                            placeholder="nome@exemplo.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Escreva o seu pedido</label>
+                        <textarea class="form-control" id="contactMessage" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn send-btn">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--modal-->
+
     
 
 <!-- JavaScript Bundle with Popper -->
