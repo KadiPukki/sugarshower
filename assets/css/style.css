@@ -121,29 +121,26 @@ body {
 
  .about-content {
   width: 100%;
-  height: 100vh;
   display: flex;
-  background-color: var(--salmon);
+  justify-content:space-around;
+ }
+
+ .jeska-img {
+  max-width: 18rem;
+ }
+
+ .jeska-card {
+  background-color: var(--pink);
+  color: var(--black);
+  font-size: 0.8rem;
+  font-weight: 500;
+ }
+
+ .jeska-insta {
+  font-size: 1rem;
+ }
+ a:visited .jeska-insta {
   color: var(--black);
  }
 
- .about-img {
-  width: 40%;
-  height: auto;
-  margin-top: 10vh;
-  margin-left: 10%;  
- }
-
- .container-content {
-  width: 50%;
-  background-color: var(--orange);
-  padding: 2rem;
- }
-
- .container-content h3 {
-  font-family: 'Pacifico', cursive;
- }
-
- .container-content p {
-  
- }
+ 
