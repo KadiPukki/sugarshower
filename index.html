@@ -84,50 +84,50 @@
                     <!--cada coluna tem 12 espacos. Coloco o número de quantas colunas eu quero que o card ocupe-->
                     <img src="./assets/images/card1.png" class="card-img-top card-img" alt="foto de uma modelo com a frase a beleza da pele está na cor">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn card-btn">Go somewhere</a>
+                        <h5 class="card-title">Pele macia e cheirosa</h5>
+                        <p class="card-text">Você sabe quais são os benefícios de esfoliar a sua pele? Descubra agora mesmo!</p>
+                        <a href="#" class="btn card-btn" data-bs-toggle="modal" data-bs-target="#modal-card1">Saiba mais</a>
                     </div>
                 </article>
                 <article class="card card-size p-0 m-4 col-12 col-md-4">
                     <img src="./assets/images/card2.png" class="card-img-top card-img" alt="foto do sugar shower">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn card-btn">Go somewhere</a>
+                        <h5 class="card-title">Sugar Shower</h5>
+                        <p class="card-text">Nosso esfoliante Sugar Shower é tudo o que a sua pele precisa.</p>
+                        <a href="#" class="btn card-btn">Saiba mais</a>
                     </div>
                 </article>
                 <article class="card card-size p-0 m-4 col-12 col-md-4">
                     <img src="./assets/images/card3.png" class="card-img-top card-img" alt="imagem com quatro modelos">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn card-btn">Go somewhere</a>
+                        <h5 class="card-title">Loja Sugar Shower</h5>
+                        <p class="card-text">Que tal presentear alguém especial com o Sugar Shower? Faca o seu pedido agora!</p>
+                        <a href="#" class="btn card-btn" data-bs-toggle="modal" data-bs-target="#modal-contato">Compre</a>
                     </div>
                 </article>
                 <article class="card card-size p-0 m-4 col-12 col-md-4">
                     <img src="./assets/images/card4.png" class="card-img-top card-img"
                         alt="foto de duas modelos">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn card-btn">Go somewhere</a>
+                        <h5 class="card-title">Sua pele merece</h5>
+                        <p class="card-text">Pele macia e com cheirinho delicioso? Você precisa conhecer o Sugar Shower!</p>
+                        <a href="#" class="btn card-btn">Saiba mais</a>
                     </div>
                 </article>
                 <article class="card card-size p-0 m-4 col-12 col-md-4">
                     <img src="./assets/images/card5.png" class="card-img-top card-img" alt="foto de uma modelo que usa sugar shower">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn card-btn">Go somewhere</a>
+                        <h5 class="card-title">Eles usam!</h5>
+                        <p class="card-text">Confira no nosso Instagram quem já se rendeu ao Sugar Shower.</p>
+                        <a href="https://www.instagram.com/sugarshower.cosmeticos/" target="_blank" class="btn card-btn">Saiba mais</a>
                     </div>
                 </article>
                 <article class="card card-size p-0 m-4 col-12 col-md-4">
                     <img src="./assets/images/card6.png" class="card-img-top card-img" alt="foto de uma modelo usando sugar shower">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn card-btn">Go somewhere</a>
+                        <h5 class="card-title">Rotina de cuidados</h5>
+                        <p class="card-text">Você sabe como incluir o esfoliante na sua rotina de cuidados? Nós te explicamos!</p>
+                        <a href="#" class="btn card-btn">Saiba mais</a>
                     </div>
                 </article>
             </div>
@@ -153,7 +153,7 @@
 
     <div class="footer-bar"></div>
 
-    <!--modal-->
+    <!--modal COMPRE-->
     <div class="modal fade" id="modal-contato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -188,7 +188,34 @@
             </div>
         </div>
     </div>
-    <!--modal-->
+    <!--modal COMPRE-->
+
+    <!--Modal Card 1-->
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal-card1" data-bs-target="#staticBackdrop">
+        Launch static backdrop modal
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="modal-card1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Pele macia e cheirosa</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem, ullam. Harum deleniti doloribus nesciunt quia, modi placeat quam nostrum quis ad. Vero iure sequi, porro tenetur ipsam eius? Corporis, id?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                    <button type="button" class="btn btn-primary">Entendi</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal Card 1-->
 
     
 
