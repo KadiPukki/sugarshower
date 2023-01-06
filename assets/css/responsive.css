@@ -16,4 +16,8 @@
     .product {
         flex-direction: column;
     }
+
+    .about {
+        flex-direction: column;
+    }
 }
