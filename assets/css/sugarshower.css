@@ -1,20 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
-.product-content {
+body {
+    background-color: var(--salmon);
+}
+
+header, footer {
+    background-color: var(--white);
+}
+
+.product {
     width: 80%;
-    height: 80vh;
-    background-color:;
     display: flex;
-    justify-content: space-around;
+    margin: 10vh auto;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
 }
 
-.product-img {
-    width: 100%;
-    height: 80%;
+.product-content {
+    width: 90%;
+    text-align: center;
+    color: var(--black);
 }
 
-.product-description {
-    width: 50%;
-    height: 50%;
+.product-content h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.product-content h4 {
+    font-size: 1.5rem;
+    padding: 1vh;
+}
+
+.product-content p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.product-btn {
+    background-color: var(--pink);
+    color: var(--black);
+    border-style: none;
+    border-radius: 15px;
+    padding: 0.5rem;
+}
+
+.product-btn:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.product-images {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-images img {
+    width: 60%;
+    border-radius: 5px;
+}
+
+.product-images img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .5s;
 }
