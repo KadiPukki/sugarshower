@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    background-color: var(--salmon);
+}
+
+header,
+footer {
+    background-color: var(--white);
+}
+
+.routine {
+    width: 80%;
+    display: flex;
+    margin: 10vh auto;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.routine-content {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: var(--black);
+}
+
+.routine-content p {
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.routine-images {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.routine-images img {
+    width: 60%;
+    border-radius: 5px;
+}
+
+.routine-images img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .5s;
+}

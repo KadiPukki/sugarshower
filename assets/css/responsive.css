@@ -20,4 +20,8 @@
     .about {
         flex-direction: column;
     }
+
+    .routine {
+        flex-direction: column;
+    }
 }
