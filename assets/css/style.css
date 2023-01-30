@@ -19,20 +19,34 @@ body {
  a {
   text-decoration: none;
  }
-
+ 
  .logo {
     width: 150px;
     height: auto;
     cursor: pointer;
  }
 
+ .navbar-style {
+  height: 15vh;
+  margin-bottom: 12vh;
+ }
+
  .navbar-button {
   color: var(--pink);
  }
 
- .navbar-style {
+ .navbar-item {
   color: var(--pink);
   font-weight: 600;
+ }
+
+ .navbar-list {
+  display: flex;
+  flex-direction: row;
+ }
+
+ .navbar-list li {
+  padding: 2vw;
  }
 
  .imagem-carrossel {
